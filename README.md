@@ -11,7 +11,7 @@ This is a simple HTTP server which helps you understand the basic implemetations
 2. Go to the directory `src` and it contains the `Makefile`. Then runs the followings commands.
    - `$ make all`  (Compile the code and create executable code)
    - `$ make run`  (Run the executable code)
-3. Then the HTTP server runs on 8080 default port. Though the HTTPS server runs on 8081.
-4. Step 1 creates certificate file and keyfile which are localhost.crt and localhost.key respectively. Add certificate to the browser that you currently using and jut connect to the server using a requests like below.
-    - (http://localhost:8080/)
-    - (https://localhost:8081/)
+3. Then the HTTP server runs on 8080 default port and the HTTPS server runs on 8081.
+4. Step 1 created certificate file and keyfile which are `localhost.crt` and `localhost.key` respectively. Add certificate to the browser that you currently using and jut connect to the server using a requests like below.
+    - http://localhost:8080/
+    - https://localhost:8081/

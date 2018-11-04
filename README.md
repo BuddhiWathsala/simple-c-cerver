@@ -6,8 +6,8 @@ This is a simple HTTP server which helps you understand the basic implemetations
 
 # Configure
 1. Create certificate for HTTPS server. Use following command. Reference: (https://stackoverflow.com/questions/25946170/how-can-i-install-ssl-on-localhost-in-ubuntu)
+    -  Go to the `src` directory.
     - `sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt`
-
 2. Go to the directory `src` and it contains the `Makefile`. Then runs the followings commands.
    - `$ make all`  (Compile the code and create executable code)
    - `$ make run`  (Run the executable code)

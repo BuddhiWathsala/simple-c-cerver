@@ -14,4 +14,4 @@ This is a simple HTTP server which helps you understand the basic implemetations
 3. Then the HTTP server runs on 8080 default port and the HTTPS server runs on 8081.
 4. Step 1 created certificate file and keyfile which are `localhost.crt` and `localhost.key` respectively. Add certificate to the browser that you currently using and jut connect to the server using a requests like below.
     - http://localhost:8080/
-    - https://localhost:8081/
+    - https://localhost
